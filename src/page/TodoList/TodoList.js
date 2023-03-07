@@ -109,7 +109,7 @@ const TodoList = () => {
         <div className={classes.wrapper}>
             <select onChange={filterTodos}>
                 <option value="all">Все</option>
-                <option value="completed">Завршенные</option>
+                <option value="completed">Завершенные</option>
                 <option value="notCompleted">Не завершенные</option>
             </select>
             <Button onClick={handleShow}>
@@ -142,7 +142,7 @@ const TodoList = () => {
             currentEdit={currentEdit}
             handleEdit={handleEdit}
             />
-            <Button onClick={clearTask}>Clear Tas</Button>
+            <Button onClick={clearTask}>Clear Task</Button>
         </div>
     )
 }
